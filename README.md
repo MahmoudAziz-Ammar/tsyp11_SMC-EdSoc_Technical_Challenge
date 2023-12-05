@@ -15,8 +15,10 @@ This project leverages Python and OpenCV to implement real-time face recognition
 - Internet
 
 ## Sample Output
+![Capture d'écran 2023-12-04 115114](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6da22082-41c6-4778-9fc4-ae1cebc7e354)
+![Capture d'écran 2023-12-04 124707](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6e3034d6-2b6d-4c17-8bbd-5b7ebb3d5eaf)
+![Capture d'écran 2023-12-04 124720](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/54a486fa-4040-420f-aa3c-cf42195577ef)
 
-## GIF Out Sample
 
 ## Real Time Database
 
@@ -25,6 +27,11 @@ The development of a real-time face recognition system requires the integration 
 The implementation of real-time face recognition involves the integration of a system that seamlessly connects to a live database, such as Firebase. When faces are scanned in real-time, the captured images are instantly uploaded to the Firebase database, ensuring a swift and efficient storage process. At the same time, the attendance records are dynamically updated in real-time whenever a face is successfully detected. This automated synchronization between face detection and database updates ensures a seamless and immediate reflection of attendance changes.
 
 Overall, this solution provides a robust and efficient mechanism for real-time face recognition with instant updates to the connected Firebase database. It facilitates a streamlined and effective attendance management system, enhancing efficiency and reliability in various applications.
+
+
+
+![Capture d'écran 2023-12-04 122350](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/5ca28e34-2116-4aa9-a4a3-21281fedb680)
+![Capture d'écran 2023-12-04 122428](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/acb8c4ec-c05f-46c6-b073-efdfc9ec8522)
 
 ### Requirements
 
