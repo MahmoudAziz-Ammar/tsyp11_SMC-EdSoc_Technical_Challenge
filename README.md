@@ -36,7 +36,7 @@ Overall, this solution provides a robust and efficient mechanism for real-time f
 ### Requirements
 
 - Python 3.3+ or Python 2.7
-- macOS or Linux (Windows not officially supported, but might work)
+- macOS or Linux or Windows 
 
 `brew install cmake`
 
