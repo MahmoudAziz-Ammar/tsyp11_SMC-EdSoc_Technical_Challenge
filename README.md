@@ -44,9 +44,6 @@ This project leverages Python and OpenCV to implement real-time face recognition
 
 ## Sample Output
 ![Capture d'écran 2023-12-04 115114](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6da22082-41c6-4778-9fc4-ae1cebc7e354)
-![Capture d'écran 2023-12-04 124707](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6e3034d6-2b6d-4c17-8bbd-5b7ebb3d5eaf)
-![Capture d'écran 2023-12-04 124720](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/54a486fa-4040-420f-aa3c-cf42195577ef)
-
 
 ## Real Time Database
 
@@ -70,6 +67,9 @@ Next, the script loads a pre-trained deep learning model from a JSON file. The m
 Additionally, the script loads a pre-trained face cascade classifier from the OpenCV library. This classifier is used to detect faces in the captured webcam frames. The cascade classifier file is loaded from the cv2.data.haarcascades directory.
 
 To extract features from the captured facial images, the code defines a function that converts the image to grayscale, reshapes it to the required format by the model, and normalizes the features. This function is used to preprocess the face regions before feeding them into the model for emotion prediction.
+
+![Capture d'écran 2023-12-04 124707](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6e3034d6-2b6d-4c17-8bbd-5b7ebb3d5eaf)
+![Capture d'écran 2023-12-04 124720](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/54a486fa-4040-420f-aa3c-cf42195577ef)
 
 ## Requirements
 
