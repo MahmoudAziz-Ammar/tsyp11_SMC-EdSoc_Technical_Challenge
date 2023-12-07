@@ -1,4 +1,4 @@
-## Analysis Part
+# 1- Analysis Part
 
 ## Analysis
 The Analysis folder contains essential files and datasets for studying well-being in the project. This folder serves as a central hub for analyzing and exploring the data related to well-being on both local and Global scales.
@@ -21,23 +21,26 @@ Feel free to explore the files and leverage the provided tools to conduct your a
 
 Note: It is essential to acknowledge the original sources and cite the datasets used in your analysis to ensure proper attribution and compliance with any licensing requirements
 
+# 2- Dashboard 
 
+This repository contains a comprehensive and visually appealing Power BI dashboard designed to showcase collected data in a meaningful and interactive manner
+The dashboard provides an easy-to-use interface, allowing eductaors and administration to explore and analyze data effortlessly. It incorporates two sets of screenshots, each capturing a different aspect of the dashboard's functionality.
 
-# Face Recognition with Real Time
+The first set of screenshots presents general information about the institution, such as the number of complaints, student enrollment, and other relevant metrics. These visuals offer a high-level overview of the institution's performance and key indicators.
+
+The second set of screenshots focuses on specific information related to mental health, physical health, and social indicators. These visuals provide deeper insights into these critical areas, allowing stakeholders to identify trends, patterns, and potential areas for improvement.
+
+Additionally, this repository includes an HTML file that demonstrates a local deployment of the Power BI dashboard on our faculty's Esprit website. This deployment showcases the accessibility and practicality of the dashboard, enabling users to access and interact with the data directly from the website.
+
+also, dashboard_solution.xls is an exemple of dataset to use it into the dashboard.
+
+NB : This repository contains a visually appealing Power BI dashboard showcasing collected data. Please note that direct access to the live dashboard requires a Power BI Pro account. However, we have provided a video capture demonstrating the dashboard's functionality and features. Feel free to watch the video to explore the dashboard's capabilities.
+
+# 3- Face Recognition with Real Time
 
 ## Description
 
 This project leverages Python and OpenCV to implement real-time face recognition capabilities. It utilizes Python 3.7, higherOpenCV, cvzone, numpy, face_recognition, and the Firebase Admin SDK to achieve accurate and efficient face recognition in various real-time scenarios.
-
-## Requirements
-
-- PC or Laptop
-- Web Cam
-- Python 3.7 or higher
-- windows or linux
-- Visual Studio
-- Firebase Account
-- Internet
 
 ## Sample Output
 ![Capture d'écran 2023-12-04 115114](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/6da22082-41c6-4778-9fc4-ae1cebc7e354)
@@ -56,18 +59,27 @@ Overall, this solution provides a robust and efficient mechanism for real-time f
 ![Capture d'écran 2023-12-04 122350](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/5ca28e34-2116-4aa9-a4a3-21281fedb680)
 ![Capture d'écran 2023-12-04 122428](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/acb8c4ec-c05f-46c6-b073-efdfc9ec8522)
 
-### Requirements
+# 4- Face_Emotion_Recognition
 
-- Python 3.3+ or Python 2.7
-- macOS or Linux or Windows 
+The provided code implements a real-time facial emotion detection system using a pre-trained deep learning model and the OpenCV library. The goal of the system is to analyze facial expressions captured by a webcam and classify them into different emotions such as anger, disgust, fear, happiness, neutral, sadness, and surprise.
 
-`brew install cmake`
+The code begins by importing the necessary libraries, including OpenCV, Keras, NumPy, CSV, and time. These libraries provide functionalities for computer vision tasks, deep learning model loading, numerical computations, CSV file operations, and time-related operations.
 
-Finally, install this module from pypi using `pip3` (or `pip2` for Python 2):
+Next, the script loads a pre-trained deep learning model from a JSON file. The model architecture is defined in the JSON file, and the model's weights are loaded from a separate file. This process is done using the model_from_json function from the Keras library.
 
-```bash
-pip3 install face_recognition
-```
+Additionally, the script loads a pre-trained face cascade classifier from the OpenCV library. This classifier is used to detect faces in the captured webcam frames. The cascade classifier file is loaded from the cv2.data.haarcascades directory.
+
+To extract features from the captured facial images, the code defines a function that converts the image to grayscale, reshapes it to the required format by the model, and normalizes the features. This function is used to preprocess the face regions before feeding them into the model for emotion prediction.
+
+## Requirements
+
+- PC or Laptop
+- Web Cam
+- Python 3.7 or higher
+- windows or linux
+- Visual Studio
+- Firebase Account
+- Internet
 
 ## Future Plan
 
