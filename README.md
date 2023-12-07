@@ -1,3 +1,28 @@
+## Analysis Part
+
+## Analysis
+The Analysis folder contains essential files and datasets for studying well-being in the project. This folder serves as a central hub for analyzing and exploring the data related to well-being on both local and Global scales.
+
+## File Structure
+The folder consists of the following files:
+
+-Local Dataset (xlsx file): This dataset focuses on well-being indicators at the local level. It contains relevant data points and variables specific to the local context, providing insights into well-being trends within a specific geographic area.
+
+-Global Dataset (CSV file): This dataset encompasses well-being indicators at the Global level. It includes data from various countries, allowing for comparative analysis and identification of global well-being patterns.
+
+-Local Well-being Analysis (Google Colab Notebook): This notebook is specifically designed for analyzing the local dataset. It provides a computational environment and code resources for exploring, visualizing, and performing statistical analyses on the local well-being data.
+
+-Global Well-being Analysis (Google Colab Notebook): This notebook is dedicated to analyzing the Global dataset. It offers a similar computational environment and code resources as the local analysis notebook, but tailored for the Global well-being data.
+
+## Purpose
+The Analysis folder and its accompanying files aim to facilitate a comprehensive examination of well-being factors. Researchers and contributors can utilize the datasets and analysis notebooks to gain meaningful insights into the well-being trends at both local and international levels. The provided resources enable data exploration, visualization, and statistical analysis, empowering users to draw evidence-based conclusions and contribute to the overall understanding of studying well-being.
+
+Feel free to explore the files and leverage the provided tools to conduct your analysis effectively. For further instructions on how to use the files and reproduce the results, please refer to the individual README files within each file's directory.
+
+Note: It is essential to acknowledge the original sources and cite the datasets used in your analysis to ensure proper attribution and compliance with any licensing requirements
+
+
+
 # Face Recognition with Real Time
 
 ## Description
@@ -30,30 +55,6 @@ Overall, this solution provides a robust and efficient mechanism for real-time f
 
 ![Capture d'écran 2023-12-04 122350](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/5ca28e34-2116-4aa9-a4a3-21281fedb680)
 ![Capture d'écran 2023-12-04 122428](https://github.com/bilel910/tsyp11_SMC-EdSoc_Technical_Challenge/assets/83314544/acb8c4ec-c05f-46c6-b073-efdfc9ec8522)
-
-## Analysis Part
-
-## Analysis
-The Analysis folder contains essential files and datasets for studying well-being in the project. This folder serves as a central hub for analyzing and exploring the data related to well-being on both local and Global scales.
-
-## File Structure
-The folder consists of the following files:
-
--Local Dataset (xlsx file): This dataset focuses on well-being indicators at the local level. It contains relevant data points and variables specific to the local context, providing insights into well-being trends within a specific geographic area.
-
--Global Dataset (CSV file): This dataset encompasses well-being indicators at the Global level. It includes data from various countries, allowing for comparative analysis and identification of global well-being patterns.
-
--Local Well-being Analysis (Google Colab Notebook): This notebook is specifically designed for analyzing the local dataset. It provides a computational environment and code resources for exploring, visualizing, and performing statistical analyses on the local well-being data.
-
--Global Well-being Analysis (Google Colab Notebook): This notebook is dedicated to analyzing the Global dataset. It offers a similar computational environment and code resources as the local analysis notebook, but tailored for the Global well-being data.
-
-## Purpose
-The Analysis folder and its accompanying files aim to facilitate a comprehensive examination of well-being factors. Researchers and contributors can utilize the datasets and analysis notebooks to gain meaningful insights into the well-being trends at both local and international levels. The provided resources enable data exploration, visualization, and statistical analysis, empowering users to draw evidence-based conclusions and contribute to the overall understanding of studying well-being.
-
-Feel free to explore the files and leverage the provided tools to conduct your analysis effectively. For further instructions on how to use the files and reproduce the results, please refer to the individual README files within each file's directory.
-
-Note: It is essential to acknowledge the original sources and cite the datasets used in your analysis to ensure proper attribution and compliance with any licensing requirements
-
 
 ### Requirements
 
